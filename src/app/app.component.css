@@ -1,0 +1,56 @@
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  background-color: #abb1b7;
+}
+
+.task {
+  color: #abb1b7;
+}
+
+.btn {
+  display: inline-block;
+  color: #547ca4;
+  font-size: 1rem;
+  border: 2px solid #495057;
+  background-color: #495057;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s;
+  vertical-align: middle;
+}
+
+.btn:not([disabled]):hover {
+  background-color: #26292c;
+}
+
+.btn-option:not([disabled]):hover {
+  transform: translateX(1.2rem);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+}
+
+.btn-ui {
+  float: right;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2dcfbf;
+}
